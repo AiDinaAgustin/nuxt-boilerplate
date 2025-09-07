@@ -1,0 +1,10 @@
+@import "tailwindcss";
+@import "flowbite/src/themes/default.css";
+@import "flowbite/dist/flowbite.css";
+
+@layer base {
+    button:not([disabled]),
+    [role="button"]:not([disabled]) {
+        cursor: pointer;
+    }
+}
